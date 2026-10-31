@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "speedoptimizer",
+  "version": "${version}",
+  "name": "Speed Optimizer",
+  "description": "Crystal and Anchor optimizer with customizable speed levels 1-10.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.speedopt.SpeedOpt"] },
+  "mixins": ["speedoptimizer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.speedopt.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["InteractionManagerMixin", "ChatMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
